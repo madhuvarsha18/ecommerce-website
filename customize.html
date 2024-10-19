@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Product</title>
+    <link rel="stylesheet" href="A:\project ecommece\customize.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customize Your Product</h1>
+        <form id="customizationForm">
+            <label for="productPhoto">Upload Photo:</label>
+            <input type="file" id="productPhoto" name="productPhoto" accept="image/*" required>
+            <br><br>
+            <label for="customText">Enter Custom Text:</label>
+            <textarea id="customText" name="customText" rows="4" cols="50" placeholder="Enter your text here..." required></textarea>
+            <br><br>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <div id="preview">
+            <h2>Preview</h2>
+            <img id="photoPreview" src="#" alt="Photo Preview" style="display:none;">
+            <p id="textPreview"></p>
+        </div>
+    </div>
+    <script src="customize.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration :none;
+    list-style: none;
+   
+  
+    
+}
+body{
+    background-color:rgba(182, 136, 180, 0.5); 
+}
+
+.navbar{
+    display: flex;
+    margin-top: 0;
+    background-color: rgba(180, 120, 177, 0.5);
+    height: 50px;
+    width:100%;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    
+    
+    
+}
+u{
+    text-decoration: underline solid;
+}
+.products {
+    margin:30px;
+    margin-top: 50px;
+    width:270px;
+    height: 350px;
+    border-radius: 20px;
+   
+}
+.container{
+    margin-top: 55px;
+    display:flex;
+    width:500px;
+    margin-bottom: 30px;
+}
+#root{
+    width:60%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+}
+.sidebar{
+    width:400%;
+    border-radius: 10px;
+    background-color: violet;
+    margin-left:20px;
+    padding: 15px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.head{
+    background-color: rgb(197, 50, 197);
+    border-radius: 5px;
+    height:40px;
+    padding:10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0px;
+    padding:10px 0px;
+    border-top: 1px solid black;
+}
+.tot{
+   font-size: 20px;
+   color:rgb(156, 40, 156);
+}
+#total-cost{
+    border-bottom: solid black;
+}
+.head{
+    margin-top: 10px;
+    justify-content: center;
+    color: rgb(65, 24, 65);
+}
+
+

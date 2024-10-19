@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>party wear</title>
+    <link rel="stylesheet" href="A:\project ecommece\partywear.css">
+</head>
+<body>
+    <nav class="navbar">
+        <center><h2>party wear!</h2></center>
+    </nav><div class="flex">
+    <table >
+        <tr ><!---first row-->
+            <td class="products">
+                <img src="https://images.meesho.com/images/products/95973325/kmlpj_1200.jpg" class="products" id="0">
+                <center><p><u>Type:</u> party wear<br><u>model:</u> 60 Gm Gown
+                <br><u >price: </u> $1000</p><button onclick="addToCart('60mgown','  ', 1000.00)" >Add to Cart</button>
+                 </center> 
+            </td>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQxExV_xCOw6slbLeV9iDX-8o8qZGDyo_jvg47KrLWuoVXyFvx-wi3etl7kXT8PyxjTbN8Ca4VwJgG4FxnKnr35DTmZLzGF0DCGBW8kIbmx" class="products" id="1">
+                <center><p><u>Type:</u> party wear<br><u>model:</u> silky saree wear
+                  <br><u >price: </u> $1999</p><button onclick="addToCart('silk saree wear','  ', 1999.00)">Add to Cart</button> </center>
+                
+            </td>
+            <td>
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS47dtP7JrUB6w31no7cwgWexf0Pd882qjilnsaw-LyaSTuOoqQk4CMpl_JOtdX0L6qGzCgZfpShelrB-k0yQLKQULUdBIUa9YQniBGPrFAoqFml5lVTAha" class="products" id="3">
+                <center><p><u>Type:</u> party wear<br><u>model:</u> western wear
+                  <br><u >price: </u> $1000</p><button onclick="addToCart('western wear','  ', 1000.00)">Add to Cart</button> </center>
+                 
+            </td>
+        </tr>
+        <tr ><!---second row-->
+            <td>
+                <img src="https://pinkcloset.in/cdn/shop/files/179_9b3e51e6-c172-48fa-9699-4a8f5c65d88a.jpg?v=1694284068&width=1445" class="products" id="4">
+                <center><p><u>Type:</u> party wear<br><u>model:</u>duppatta set
+                  <br><u >price: </u> $2399</p><button onclick="addToCart('dupatta set','  ', 2399.00)">Add to Cart</button> </center> </center>
+            </td>
+            <td>
+                <img src="https://images.meesho.com/images/products/251292202/ayrky_1200.jpg" class="products" id="5">
+                <center><p><u>Type:</u> party wear<br><u>model:</u>princess wear
+                    <br><u >price: </u> $2999</p> <button onclick="addToCart('princess wear','  ', 2999.00)">Add to Cart</button> </center></center>
+                
+                
+            </td>
+            <td>
+                <img src="https://5.imimg.com/data5/ANDROID/Default/2021/2/AI/FT/GI/29603120/product-jpeg-500x500.jpg" class="products" id="6">
+                <center><p><u>Type:</u> party wear<br><u>model:</u>Neck covered kurti
+                    <br><u >price: </u> $1300</p><button onclick="addToCart('neck cover kurti','  ', 1300.00)">Add to Cart</button> </center> </center>
+               
+            </td>
+        </tr>
+
+    </table><br>
+<div class="container"> 
+    <div id="root"></div>
+    <div class="sidebar">
+        <center><div ><p class="head"> cart </p></div></center>
+        <div id="cartitem">Here is your cart! </div>
+        <div class="foot">
+            
+            
+            <div class="cart">
+                
+                <ul id="cart-items"></ul>
+                <p class="tot">total cost:$<span id="total-cost"></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script src="total.js"></script>
+</body>

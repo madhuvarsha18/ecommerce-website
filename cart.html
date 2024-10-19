@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <h1>Items in Your Cart</h1>
+    <div id="cartItems"></div>
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const item = urlParams.get('item');
+        const quantity = urlParams.get('quantity');
+
+        // Display selected items
+        if (item && quantity) {
+            const cartItemsDiv = document.getElementById('cartItems');
+            const itemElement = document.createElement('p');
+            itemElement.textContent = `Item: ${item}, Quantity: ${quantity}`;
+            cartItemsDiv.appendChild(itemElement);
+        } else {
+            document.getElementById('cartItems').textContent = 'No items in cart.';
+        }
+    </script>
+</body>
+</html>

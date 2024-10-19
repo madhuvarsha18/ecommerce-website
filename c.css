@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    text-decoration :none;
+    list-style: none;
+
+}
+:root{
+    --bg-color:#ffffff;
+    --text-color:#0f172a;
+    --main-color:#6b7280;
+    --other-coor:#334155;
+    --big-font:4.3rem;
+    --h2-font:2.2rem;
+    --p-font:1rem;
+
+
+}
+body{
+    color:var(--text-color);
+    background:var(--bg-color);
+}
+.logo{
+    margin:10px;
+    width:105px;
+    height:40px;
+}
+header{
+    position:fixed;
+    right:0;
+    top:0;
+    width:100%;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background: transparent;
+    padding:17px 11%;
+    border-bottom:1px solid #f7f9fb;
+    transition: all .45s ease;
+    background-color: antiquewhite;
+
+}
+.navbar{
+    display:flex;
+    
+}
+.navbar a{
+    font-size: var(--p-font);
+    color:var(--other-color);
+    font-weight:400;
+    padding: 10px 25px;
+    margin:0 5px;
+    background:transparent;
+    border-radius:30px;
+
+}
+.navbar a:hover{
+    background: #b62d4f;
+}
+
+.icons{
+    display:flex;
+    align-items: center;
+
+}
+.icons i{
+    height:50px;
+    width:50px;
+    font-size: 22px;
+    margin-right: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+    color:black;
+    
+}
+.icons i:hover{
+   color:blue;
+}
+#menu-icon{
+    color: #39414b;
+    font-size: 33px;
+    z-index: 100001;
+
+}
+.home{
+    background-image: url(https://img.freepik.com/free-photo/busy-woman-with-shopping-bags_329181-9176.jpg?w=740&t=st=1725797602~exp=1725798202~hmac=a7a2fcae2b1275bdc6d3d571b6fa0e18d9d6f3e1db1ac1e975767ffd9f874457);
+    background-repeat:no-repeat ;
+    height: 1000px;
+    position:relative;
+    display:grid;
+    align-items: center;
+    justify-content: right ;
+    margin-left: 150px;
+    background-position: fixed;
+    
+}  
+.home-text h4,h1{
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 25px px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.btn{
+    display: inline-block;
+    padding: 16px;
+    background-color:black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+}
